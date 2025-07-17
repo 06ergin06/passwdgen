@@ -2,7 +2,9 @@
 
 echo "Welcome to Password Generator"
 read -p "Enter password length : " len
-
+if (($len < 0)); then 
+    echo "Password length cannot be negative."
+else 
 symbols=("!" "^" "#" "+" "[" "]" "*" "\\" "?" "." "," ";" "@" "&" "{" "}")
 numbers=({0..9})
 lower=({a..z})
@@ -30,3 +32,5 @@ else
 fi
 done
 echo "Generated password : $password"
+
+fi
