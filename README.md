@@ -26,14 +26,14 @@ You can download the script directly using `curl` or `wget`:
 
 ```bash
 # Using curl
-curl -O https://raw.githubusercontent.com/06ergin06/password_generator_bash/main/script.sh
+curl -O https://raw.githubusercontent.com/06ergin06/passwdgen/main/script.sh
 
 # Using wget
-wget https://raw.githubusercontent.com/06ergin06/password_generator_bash/main/script.sh
+wget https://raw.githubusercontent.com/06ergin06/passwdgen/main/script.sh
 
 # Or clone the entire repository
-git clone https://github.com/06ergin06/password_generator_bash.git
-cd password_generator_bash
+git clone https://github.com/06ergin06/passwdgen.git
+cd passwdgen
 ```
 
 ## Usage
