@@ -15,7 +15,8 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 echo "Welcome to Password Generator"
-read -p "Enter password length : " len
+
+len=${1:-20}
 if (($len < 0)); then 
     echo "Password length cannot be negative."
 else 
